@@ -1,0 +1,22 @@
+.loginBtn {
+    margin: 10px;
+    height: 45px;
+    /* width: 400px; */
+    border-radius: 25px;
+}
+
+.google-loginBtn {
+    background-color: #ea4335;
+    color: white;
+    border: 1px solid #ea4335;
+}
+
+.google-loginBtn:hover {
+    background-color: white;
+    color: #ea4335;
+    border: 1px solid #ea4335;
+}
+
+.login-div {
+    height: 400px;
+}
