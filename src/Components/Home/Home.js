@@ -14,9 +14,9 @@ const Home = () => {
     }, [])
     // console.log(allTask);
     return (
-        <div className="container-fluid px-5">
-            <h1 className="text-center p-3 headerText">I GROW BY HELPING PEOPLE IN NEED.</h1>
-            <InputGroup size="lg" className="mb-3 p-3 w-25 m-auto">
+        <div className="container-fluid">
+            <h1 className="text-center headerText">PEOPLE GROW BY HELPING PEOPLE.</h1>
+            {/* <InputGroup size="lg" className="p-3 m-auto">
                 <FormControl
                     placeholder="Search...."
                     aria-label="Recipient's username"
@@ -25,8 +25,8 @@ const Home = () => {
                 <InputGroup.Append>
                     <Button variant="primary">Search</Button>
                 </InputGroup.Append>
-            </InputGroup>
-            <div className="row px-5">
+            </InputGroup> */}
+            <div className="row">
                 {
                     allTask.map(task => <Task key={task.code} task={task}></Task>)
                 }
